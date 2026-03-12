@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA1GDX</title>
+
+<link rel="icon" type="image/png" href="https://ma1gdx.shop/logo.png">
+<link rel="shortcut icon" type="image/png" href="https://ma1gdx.shop/logo.png">
+<link rel="apple-touch-icon" href="https://ma1gdx.shop/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bttn.css/0.2.4/bttn.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <section class="hero" id="home">
+        <div class="digital-grid"></div>
+        <div class="light-lines"></div>
+        <div class="animated-bg"></div>
+        <div class="hero-logo">
+</div>
+        <div class="hero-content fade-in-up">
+            <div class="hero-logo pulse-logo">
+    <img src="logo.png" alt="MOH'D | Graphic Designer">
+</div>
+            <h1 data-i18n="hero_title">أحول أفكارك إلى <br><span>واقع رقمي مذهل</span></h1>
+            <p data-i18n="hero_desc" class="fade-in-up delay-1">مصمم مواقع ويب ومصمم جرافيك محترف. أقدم حلولاً إبداعية ترفع من قيمة علامتك التجارية.</p>
+            <div class="hero-btns fade-in-up delay-2">
+                <button onclick="whatsapp('design')" class="bttn-unite bttn-lg bttn-primary" data-i18n="btn_design">احجز طلبك الآن</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="section-title">
+            <h2 data-i18n="services_title">خدماتي الإبداعية</h2>
+            <p data-i18n="services_subtitle">حلول متكاملة لنجاح مشروعك</p>
+        </div>
+        <div class="services-grid">
+            <div class="card service-right">
+                <i class="fas fa-laptop-code"></i>
+                <h3 data-i18n="service_web_title">تصميم مواقع ويب</h3>
+                <p data-i18n="service_web_desc">تصميم مواقع عصرية، سريعة، ومتجاوبة مع جميع الأجهزة بأحدث التقنيات البرمجية.</p>
+                <button onclick="whatsapp('web')" class="bttn-fill bttn-md bttn-primary" data-i18n="btn_order_web">طلب تصميم موقع</button>
+            </div>
+            
+            <div class="card service-left">
+                <i class="fas fa-paint-brush"></i>
+                <h3 data-i18n="service_graphic_title">تصميم جرافيك</h3>
+                <p data-i18n="service_graphic_desc">هوية بصرية، شعارات، وتصاميم إعلانية تجذب الانتباه وتعكس احترافية عملك.</p>
+                <button onclick="whatsapp('graphic')" class="bttn-fill bttn-md bttn-primary" data-i18n="btn_order_graphic">طلب تصميم جرافيك</button>
+            </div>
+            
+            <div class="card service-right">
+                <i class="fas fa-code"></i>
+                <h3 data-i18n="service_graphic_title">تصميم أكواد برمجية</h3>
+                <p data-i18n="service_graphic_desc"> تصميم وبرمجة أكواد احترافية ونظيفة
+        باستخدام أحدث التقنيات البرمجية.</p>
+                <button onclick="whatsapp('css')" class="bttn-fill bttn-md bttn-primary" data-i18n="btn_order_graphic">طلب تصميم أكواد</button>
+            </div>
+        <div class="card service-left">
+    <i class="fas fa-user-shield"></i>
+    <h3>الهكر الأخلاقي والأمن السيبراني</h3>
+    <p>
+        فحص أمني احترافي للمواقع والتطبيقات لاكتشاف الثغرات،
+        اختبار اختراق قانوني، وتقوية الحماية ضد الهجمات الإلكترونية.
+    </p>
+    <button onclick="whatsapp('security')" 
+    class="bttn-fill bttn-md bttn-primary">
+        طلب فحص أمني
+    </button>
+</div>
+        </button>
+</div>
+        </div>
+    </section>
+
+        <section class="section" id="contact">
+    <div class="section-title">
+        <h2>تواصل معنا</h2>
+        <p> نرحب بتواصلك معنا ويسعدنا خدمتك 🌹</p>
+    </div>
+
+    <div class="contact-text-list">
+
+        <a href="https://wa.me/967772899468" target="_blank" class="contact-text-item">
+            <i class="fab fa-whatsapp"></i>
+            <span>  772899468</span>
+        </a>
+
+        <a href="mailto:mohammed@ma1gdx.com" class="contact-text-item">
+            <i class="fas fa-envelope"></i>
+            <span>  mohammed.ma1gd.a@gmail.com </span>
+        </a>
+
+    </div>
+</section>
+    <footer>
+        <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const footer = document.querySelector("footer");
+
+    const socialWrapper = document.createElement("div");
+    socialWrapper.className = "auto-social-container";
+
+    const socials = [
+        { link: "https://instagram.com/MA1GDX", icon: "fab fa-instagram" },
+        { link: "https://youtube.com/@MA1GDX", icon: "fab fa-youtube" },
+        { link: "https://x.com/MA1GDX", icon: "fab fa-twitter" },
+        { link: "https://facebook.com/MA1GDX", icon: "fab fa-facebook-f" }
+    ];
+
+    socials.forEach(item => {
+        const a = document.createElement("a");
+        a.href = item.link;
+        a.target = "_blank";
+        a.className = "auto-social-icon";
+
+        const i = document.createElement("i");
+        i.className = item.icon;
+
+        a.appendChild(i);
+        socialWrapper.appendChild(a);
+    });
+
+    footer.prepend(socialWrapper);
+});
+</script>
+        <p style="margin-top: 15px;">
+            <span data-i18n="footer_rights">جميع الحقوق محفوظة</span> &copy; 2025 | 
+            <span style="color: var(--primary-color); font-weight: bold; letter-spacing: 1px;">MA1GDX</span>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+
+<!-- ===== MA1GDX SMART SCROLL BUTTON ===== -->
+<button id="ma1gdxScrollBtn"></button>
+
+<style>
+#ma1gdxScrollBtn{
+position:fixed;
+bottom:35px;
+right:35px;
+width:70px;
+height:70px;
+border-radius:50%;
+border:none;
+cursor:pointer;
+z-index:9999999;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:26px;
+font-weight:bold;
+color:#fff;
+opacity:0;
+pointer-events:none;
+transition:all .4s ease;
+background:linear-gradient(135deg,#ff6600,#ff0000);
+box-shadow:0 0 20px rgba(255,102,0,0.7),
+0 0 40px rgba(255,0,0,0.4);
+}
+
+#ma1gdxScrollBtn::after{
+content:"↓";
+transition:.3s;
+}
+
+#ma1gdxScrollBtn.active{
+opacity:1;
+pointer-events:auto;
+}
+
+#ma1gdxScrollBtn.up::after{
+content:"↑";
+}
+
+#ma1gdxScrollBtn:hover{
+transform:scale(1.15);
+box-shadow:0 0 30px #ff6600,
+0 0 60px #ff0000;
+}
+</style>
+
+<script>
+(function(){
+
+function initScrollBtn(){
+
+let btn = document.getElementById("ma1gdxScrollBtn");
+if(!btn) return;
+
+window.addEventListener("scroll",function(){
+
+let scrollTop = window.pageYOffset;
+let fullHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+if(scrollTop > 150){
+btn.classList.add("active");
+}else{
+btn.classList.remove("active");
+}
+
+if(scrollTop > fullHeight/2){
+btn.classList.add("up");
+}else{
+btn.classList.remove("up");
+}
+
+});
+
+btn.addEventListener("click",function(){
+
+let scrollTop = window.pageYOffset;
+let fullHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+if(scrollTop > fullHeight/2){
+window.scrollTo({top:0,behavior:"smooth"});
+}else{
+window.scrollTo({top:document.body.scrollHeight,behavior:"smooth"});
+}
+
+});
+
+}
+
+if(document.readyState === "loading"){
+document.addEventListener("DOMContentLoaded",initScrollBtn);
+}else{
+initScrollBtn();
+}
+
+})();
+</script>
+<!-- ===== END ===== -->
+</body>
+
+</html>
